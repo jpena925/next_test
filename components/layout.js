@@ -60,6 +60,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <h3 class='text-green-600'>HELLO TAILWIND INTEGRATION SUCCESS</h3>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
